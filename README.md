@@ -42,7 +42,7 @@ There's one limitation, though. Because the later copies are shift far into the 
 ## Installation
 There are two options:
 
- 1. spacetime is available as `spacetime` in [Cocoapods](http://cocoapods.org).
+ 1. spacetime is available as `spacetime` in [CocoaPods](https://cocoapods.org).
  2. Manually add the files into your Xcode project. Slightly simpler, but updates are also manual.
 
 ## License
