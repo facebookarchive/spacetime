@@ -29,7 +29,7 @@ meshView.instancePositions = instancePositions;
 ```
 
 ## How it works
-spacetime is a careful combination two little-known features of CoreAnimation (QuartzCore): replicator layers and the time hierarchy. The basics of both are explained here, but Apple's [Core Animation Programming Guide](https://developer.apple.com/library/ios/documentation/Cocoa/Conceptual/CoreAnimation_guide/Introduction/Introduction.html#//apple_ref/doc/uid/TP40004514) has a more complete reference.
+spacetime is a careful combination of two little-known features of CoreAnimation (QuartzCore): replicator layers and the time hierarchy. The basics of both are explained here, but Apple's [Core Animation Programming Guide](https://developer.apple.com/library/ios/documentation/Cocoa/Conceptual/CoreAnimation_guide/Introduction/Introduction.html#//apple_ref/doc/uid/TP40004514) has a more complete reference.
 
 Replicator layers (`CAReplicatorLayer`) are a special type of `CALayer` that duplicate their content a configurable number of times. For example, a tiled background could use a replicator layer to avoid creating an image big enough to fill the whole screen. However, replicator layers are limited in how each replicated copy can be different from the others: they always show the same content, and the same transform is applied between each copy. There's no way to show different parts of the same layer or transform more than one duplicate in arbitrary ways.
 
