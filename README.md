@@ -1,4 +1,10 @@
 # spacetime
+- - -
+
+**_This project is not actively maintained. Proceed at your own risk!_**
+
+- - - 
+
 spacetime is an experimental library for individually transforming parts of layers in real time. With the right transforms, you can make everything from a text view split in half to a cylindrical web view.
 
 **Warning:** Unlike most Facebook open source, spacetime is an experimental library and hasn't been used in production. Make sure to test extensively if you want to use it, and file issues on anything you see.
